@@ -17,27 +17,27 @@ class PersonagemTest {
 
     @Test
     public void naoDeveNormalizarPersonagemNormal() {
-        personagem.setEstado(PersonagemEstadoNormalizar.getInstance());
+        personagem.setEstado(PersonagemEstadoNormal.getInstance());
         assertFalse(personagem.normalizar());
     }
 
     @Test
     public void deveAtordoarPersonagemNormal() {
-        personagem.setEstado(PersonagemEstadoNormalizar.getInstance());
+        personagem.setEstado(PersonagemEstadoNormal.getInstance());
         assertTrue(personagem.atordoar());
         assertEquals(PersonagemEstadoAtordoado.getInstance(), personagem.getEstado());
     }
 
     @Test
     public void deveEnvenenarPersonagemNormal() {
-        personagem.setEstado(PersonagemEstadoNormalizar.getInstance());
+        personagem.setEstado(PersonagemEstadoNormal.getInstance());
         assertTrue(personagem.envenenar());
         assertEquals(PersonagemEstadoEnvenenado.getInstance(), personagem.getEstado());
     }
 
     @Test
     public void deveSangrarPersonagemNormal() {
-        personagem.setEstado(PersonagemEstadoNormalizar.getInstance());
+        personagem.setEstado(PersonagemEstadoNormal.getInstance());
         assertTrue(personagem.sangrar());
         assertEquals(PersonagemEstadoSangrando.getInstance(), personagem.getEstado());
     }
@@ -54,7 +54,7 @@ class PersonagemTest {
     public void deveNormalizarPersonagemAtordoado() {
         personagem.setEstado(PersonagemEstadoAtordoado.getInstance());
         assertTrue(personagem.normalizar());
-        assertEquals(PersonagemEstadoNormalizar.getInstance(), personagem.getEstado());
+        assertEquals(PersonagemEstadoNormal.getInstance(), personagem.getEstado());
     }
 
     @Test
@@ -97,7 +97,7 @@ class PersonagemTest {
     public void deveNormalizarPersonagemSangrando() {
         personagem.setEstado(PersonagemEstadoSangrando.getInstance());
         assertTrue(personagem.normalizar());
-        assertEquals(PersonagemEstadoNormalizar.getInstance(), personagem.getEstado());
+        assertEquals(PersonagemEstadoNormal.getInstance(), personagem.getEstado());
     }
 
     // Personagem Envenenado
@@ -118,7 +118,7 @@ class PersonagemTest {
     public void deveNormalizarPersonagemEnvenenado() {
         personagem.setEstado(PersonagemEstadoEnvenenado.getInstance());
         assertTrue(personagem.normalizar());
-        assertEquals(PersonagemEstadoNormalizar.getInstance(), personagem.getEstado());
+        assertEquals(PersonagemEstadoNormal.getInstance(), personagem.getEstado());
     }
 
     @Test

@@ -1,9 +1,9 @@
 package org.state;
 
-public class PersonagemEstadoNormalizar extends PersonagemEstado{
-    private PersonagemEstadoNormalizar() {};
-    private static PersonagemEstadoNormalizar instance = new PersonagemEstadoNormalizar();
-    public static PersonagemEstadoNormalizar getInstance() {
+public class PersonagemEstadoNormal extends PersonagemEstado{
+    private PersonagemEstadoNormal() {};
+    private static PersonagemEstadoNormal instance = new PersonagemEstadoNormal();
+    public static PersonagemEstadoNormal getInstance() {
         return instance;
     }
 

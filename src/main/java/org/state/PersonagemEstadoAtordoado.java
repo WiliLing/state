@@ -22,7 +22,7 @@ public class PersonagemEstadoAtordoado extends PersonagemEstado{
     }
 
     public boolean normalizar(Personagem personagem) {
-        personagem.setEstado(PersonagemEstadoNormalizar.getInstance());
+        personagem.setEstado(PersonagemEstadoNormal.getInstance());
         return true;
     }
 }

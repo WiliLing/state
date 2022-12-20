@@ -5,7 +5,7 @@ public class Personagem {
     private PersonagemEstado estado;
 
     public Personagem() {
-        this.estado = PersonagemEstadoNormalizar.getInstance();
+        this.estado = PersonagemEstadoNormal.getInstance();
     }
 
     public void setEstado(PersonagemEstado estado) {

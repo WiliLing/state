@@ -12,7 +12,7 @@ public class PersonagemEstadoEnvenenado extends PersonagemEstado {
     }
 
     public boolean normalizar(Personagem personagem) {
-        personagem.setEstado(PersonagemEstadoNormalizar.getInstance());
+        personagem.setEstado(PersonagemEstadoNormal.getInstance());
         return true;
     }
 
