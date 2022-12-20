@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e12d5cbd-3230-48a2-8c38-c1c7c6ae0eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/state/Personagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/state/PersonagemEstado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/state/PersonagemEstadoAtordoado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/state/PersonagemEstadoEnvenenado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/state/PersonagemEstadoNormalizar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/state/PersonagemEstadoSangrando.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/state/PersonagemTest.java" afterDir="false" />
+    <list default="true" id="e12d5cbd-3230-48a2-8c38-c1c7c6ae0eb1" name="Changes" comment="Mudança no nome">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -157,6 +144,21 @@
       <option name="presentableId" value="Default" />
       <updated>1671570436104</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criaçao do projeto">
+      <created>1671573837742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671573837742</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mudança no nome">
+      <created>1671573915352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671573915352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,5 +171,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criaçao do projeto" />
+    <MESSAGE value="Mudança no nome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudança no nome" />
   </component>
 </project>
